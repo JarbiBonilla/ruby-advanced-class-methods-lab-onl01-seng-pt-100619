@@ -43,7 +43,9 @@ class Song
     end
   end
   
-  
+  def self.alphabetical
+    self.sort
+  end
   
   
 end
